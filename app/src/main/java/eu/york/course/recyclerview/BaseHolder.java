@@ -5,13 +5,10 @@ import android.view.View;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class Holder extends BaseHolder {
-
-    public Holder(@NonNull View itemView) {
+public abstract class BaseHolder extends RecyclerView.ViewHolder {
+    public BaseHolder(@NonNull View itemView) {
         super(itemView);
     }
 
-    public void bind(String data){
-
-    }
+    abstract void bind(String data);
 }

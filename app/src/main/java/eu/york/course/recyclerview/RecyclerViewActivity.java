@@ -44,6 +44,12 @@ public class RecyclerViewActivity extends AppCompatActivity {
 
         List data = new ArrayList<String>();
         data.add("");
+        data.add("");
+        data.add("");
+        data.add("");
+        data.add("");
+        data.add("");
+        data.add("");
 
         adapter.submitList(data);
     }
